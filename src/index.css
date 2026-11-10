@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-obsidian: #07080D;
+    --color-obsidian-card: #111420;
+    --color-light-canvas: #F5F7FC;
+    --color-ink: #0B0E17;
+    --color-periwinkle: #687DF7;
+    --color-amber: #F59E42;
+    --color-white: #FFFFFF;
+  }
+
+  html {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #07080D;
+    color: #0B0E17;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-display {
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+}
+
+/* Respect user preference for reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "CHIRU CREATIVE — AI-Assisted Creative Studio",
+  "description": "Independent AI-assisted creative studio in Hassan, Karnataka, India helping businesses turn ideas into compelling promotional visuals and digital content.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
